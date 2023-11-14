@@ -1,0 +1,60 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(190, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 40vw;
+    height: 80h;
+    background-color: darkcyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px #161515;
+}
+
+.row{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1{
+    height: 50vh;
+    width: 40vw;
+   
+}
+.row2{
+    height: 30vh;
+    width: 40vw;
+   
+}
+
+.circle_of_temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 6em ;
+    background-color: rgb(235, 141, 53);
+    box-shadow: 10px 10px   #161515;
+    border-radius: 50%;
+    width: 30vh;
+    height: 30vh;
+    transition: all 3s;
+}
+
+button{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: darkslateblue;
+    box-shadow: 3px 3px #161515;
+    margin: 60px;
+    color: aliceblue;
+    font-size: 6rem ;
+}
